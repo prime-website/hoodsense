@@ -34,7 +34,9 @@ StarId = {
 	5491
 }
 
-EnemyId = {}
+EnemyId = {
+	1294319227
+}
 
 --// Don't change anything under this.
 function ZappedEmojis()
