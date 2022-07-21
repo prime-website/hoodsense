@@ -36,6 +36,7 @@ StarId = {
 
 EnemyId = {
 	1294319227
+	520812787
 }
 
 --// Don't change anything under this.
