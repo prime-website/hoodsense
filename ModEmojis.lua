@@ -62,6 +62,13 @@ function ZappedEmojis()
 					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💎]' .. Player.DisplayName)
 				end
 			end
+		elseif
+			table.find(EnemyId, Player.UserId) then
+			if Player.Character then
+				if Player.Character.Parent.Name == 'Players' then
+					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('🤡 KILL THIS NIGGER 🤡')
+				end
+			end
 		if
 			Player.Character then
 			if Player.Character.Parent.Name == 'Players' then
