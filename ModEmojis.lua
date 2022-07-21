@@ -34,6 +34,8 @@ StarId = {
 	5491
 }
 
+--// Don't delete these, they are here for some reason. || Delete if they buy premium.
+
 EnemyId = {
 	3449237561,
 	1294319227,
