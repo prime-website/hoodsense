@@ -3,4 +3,4 @@ local function Blacklist(UserID, Reason)
 		game:GetService('Players').LocalPlayer:Kick('\n HOODSENSE BANNED: \n'..Reason)
 	end
 end
-Blacklist(2137420, 'No reason given.')
+Blacklist(520812787, 'No reason given.')
