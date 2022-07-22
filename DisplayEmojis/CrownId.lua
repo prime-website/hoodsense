@@ -1,4 +1,3 @@
-STAFF = {
-  [377728713] = true,
+return {
+  377728713
 }
-return STAFF
