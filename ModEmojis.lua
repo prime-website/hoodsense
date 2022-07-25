@@ -36,6 +36,10 @@ StarId = {
 	688216848
 }
 
+PartnerId = {
+	244225295
+}
+
 --// Don't delete these, they are here for some reason. || Delete if they buy premium.
 
 EnemyId = {
@@ -65,6 +69,13 @@ function ZappedEmojis()
 			if Player.Character then
 				if Player.Character.Parent.Name == 'Players' then
 					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💎]' .. Player.DisplayName)
+				end
+			end
+		elseif
+			table.find(PartnerId, Player.UserId) then
+			if Player.Character then
+				if Player.Character.Parent.Name == 'Players' then
+					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🔥]' .. Player.DisplayName)
 				end
 			end
 		elseif
