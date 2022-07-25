@@ -32,7 +32,8 @@ StarId = {
 	96536330,
 	5491,
 	3699134985,
-	275110986
+	275110986,
+	688216848
 }
 
 --// Don't delete these, they are here for some reason. || Delete if they buy premium.
