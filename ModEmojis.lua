@@ -43,8 +43,6 @@ PartnerId = {
 
 EnemyId = {
 	3449237561,
-	1294319227,
-	520812787,
 	1743763669 --zch#0001 scammer, dont trust lmao
 }
 
