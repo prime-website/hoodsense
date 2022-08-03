@@ -33,9 +33,6 @@ StarId = {
 	2680599923,
 	2363084266,
 	3594925982,
-	993331411,
-	160578797, --wDynamic
-	1743763669, --akaDarkn
 }
 
 PartnerId = {
@@ -47,7 +44,8 @@ PartnerId = {
 EnemyId = {
 	3449237561,
 	1294319227,
-	520812787
+	520812787,
+	1743763669 --zch#0001 scammer, dont trust lmao
 }
 
 --// Don't change anything under this.
