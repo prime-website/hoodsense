@@ -4,4 +4,4 @@ local function Blacklist(UserID, LogId, Reason)
 	end
 end
 Blacklist(2843681003, "AF884C62-C218-4DA4-B598-D82C4DC80DFF", "No Reason Given")
-Blacklist(801746405, "8989D97C-A3E4-4C9A-88E8-D6EE36DBE1E9", "No Reason Given")
+Blacklist(1603944754, "D0076E12-2DD9-4093-B94A-6D7D3D8E25FE", "No Reason Given")
