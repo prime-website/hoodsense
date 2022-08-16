@@ -5,7 +5,6 @@ DiamondId = {
 	2452452863,
 	1090807044,
 	548586583,
-	377728713,
 }
 
 StarId = {
@@ -50,6 +49,7 @@ PartnerId = {
 
 EnemyId = {
 	3449237561,
+	377728713, --michas :)
 	1743763669 --zch#0001 scammer, dont trust lmao
 }
 
