@@ -1,5 +1,4 @@
-CrownId = {
-}
+CrownId = {}
 
 DiamondId = {
 	2452452863,
