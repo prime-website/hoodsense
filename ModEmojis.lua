@@ -55,7 +55,7 @@ EnemyId = {
 }
 
 --// Don't change anything under this.
-function ZappedEmojis()
+function HoodsenseEmojis()
 	for _,Player in pairs(game:GetService('Players'):GetChildren()) do
 		if table.find(StarId, Player.UserId) then
 			if Player.Character then
@@ -102,5 +102,5 @@ function ZappedEmojis()
 	end
 end
 end
-local success,err = pcall(ZappedEmojis)
+local success,err = pcall(HoodsenseEmojis)
 return CrownId
