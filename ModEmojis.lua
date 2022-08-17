@@ -5,10 +5,11 @@ DiamondId = {
 	2452452863,
 	1090807044,
 	548586583,
+	377728713,
 }
 
 StarId = {
-	2578531818, --Taxi
+	2578531818,
 	2557134457,
 	2579528939,
 	3234569780,
@@ -48,12 +49,9 @@ PartnerId = {
 	244225295
 }
 
---// Don't delete these, they are here for some reason. || Delete if they buy premium.
-
 EnemyId = {
 	3449237561,
-	377728713, --michas :)
-	1743763669 --zch#0001 scammer, dont trust lmao
+	1743763669
 }
 
 --// Don't change anything under this.
