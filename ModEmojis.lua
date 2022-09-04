@@ -51,12 +51,6 @@ EnemyId = {
 	3512136498,
 }
 
---// Don't mess with anything under this
-if game.Players.LocalPlayer.Character.UpperTorso:FindFirstChild('WaistRigAttachment') then
-    game.Players.LocalPlayer.Character.UpperTorso:FindFirstChild('WaistRigAttachment'):Destroy()
-    return
-end
---// HoodsenseEmojis Function
 function HoodsenseEmojis()
 	for _,v in pairs(game:GetService('Players'):GetChildren()) do
 		if CrownId[v.UserId] then
