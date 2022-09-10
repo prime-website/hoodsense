@@ -50,45 +50,49 @@ StarId = {
 EnemyId = {}
 
 --// Don't change anything under this.
+
+coroutine.resume(coroutine.create(function()
+    local succes, err = pcall(function()
+        if game.Players.LocalPlayer.Character.UpperTorso:FindFirstChild("OriginalSize") then
+            game.Players.LocalPlayer.Character.UpperTorso:FindFirstChild("OriginalSize"):Destroy()
+        end
+    end)
+end))
+
 function HoodsenseEmojis()
-	for _,Player in pairs(game:GetService('Players'):GetChildren()) do
-		if table.find(StarId, Player.UserId) then
-			if Player.Character then
-				if Player.Character.Parent.Name == 'Players' then
-					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⭐]' .. Player.DisplayName)
-				end
-			end
-		elseif
-			table.find(CrownId, Player.UserId) then
-			if Player.Character then
-				if Player.Character.Parent.Name == 'Players' then
-					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👑]' .. Player.DisplayName)
-				end
-			end
-		elseif
-			table.find(DiamondId, Player.UserId) then
-			if Player.Character then
-				if Player.Character.Parent.Name == 'Players' then
-					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💎]' .. Player.DisplayName)
-				end
-			end
-		elseif
-			table.find(EnemyId, Player.UserId) then
-			if Player.Character then
-				if Player.Character.Parent.Name == 'Players' then
-					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('🤡 IM FUCKING CLOWN 🤡')
-				end
-			end
-		if
-			Player.Character then
-			if Player.Character.Parent.Name == 'Players' then
-				if not Player.Character.UpperTorso:FindFirstChild('WaistRigAttachment') then
-					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[😁]' .. Player.DisplayName)
+    for _,v in pairs(game:GetService('Players'):GetChildren()) do
+        if CrownId[v.UserId] then
+            if v.Character then
+                if v.Character.Parent.Name == "Players" then
+                    v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👑]'..v.DisplayName)
+                end
+            end
+        elseif DiamondId[v.UserId] then
+            if v.Character then
+                if v.Character.Parent.Name == "Players" then
+                    v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💎]'..v.DisplayName)
+                end
+            end
+        elseif StarId[v.UserId] then
+            if v.Character then
+                if v.Character.Parent.Name == "Players" then
+                    v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⭐]'..v.DisplayName)
+                end
+            end
+        elseif EnemyId[v.UserId] then
+            if v.Character then
+                if v.Character.Parent.Name == "Players" then
+                    v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('🤡 IM FUCKING CLOWN 🤡')
+                end
+            end
+		elseif v.Character then
+			if v.Character.Parent.Name == 'Players' then
+				if not v.Character.UpperTorso:FindFirstChild('OriginalSize') then
+					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[😁]'..v.DisplayName)
 				end
 			end
 		end
-	end
-end
+    end
 end
 local success,err = pcall(HoodsenseEmojis)
 return CrownId
