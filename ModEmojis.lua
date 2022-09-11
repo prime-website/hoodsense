@@ -47,6 +47,7 @@ StarId = {
 	3560046581,
 }
 
+--// Don't change anything under this.
 coroutine.resume(coroutine.create(function()
     local succes, err = pcall(function()
         if game.Players.LocalPlayer.Character.LowerTorso:FindFirstChild("OriginalSize") then
@@ -54,8 +55,6 @@ coroutine.resume(coroutine.create(function()
         end
     end)
 end))
-
---// Don't change anything under this.
 function Emojis()
     for _,v in pairs(game:GetService('Players'):GetChildren()) do
         if table.find(CrownId, v.UserId) then
