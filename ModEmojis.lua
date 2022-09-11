@@ -55,7 +55,7 @@ coroutine.resume(coroutine.create(function()
         end
     end)
 end))
-function Emojis()
+function HoodsenseEmojis()
     for _,v in pairs(game:GetService('Players'):GetChildren()) do
         if table.find(CrownId, v.UserId) then
             if v.Character then
@@ -85,5 +85,5 @@ function Emojis()
         end
     end
 end
-local success,err = pcall(Emojis)
+local success,err = pcall(HoodsenseEmojis)
 return CrownId
