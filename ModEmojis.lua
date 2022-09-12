@@ -48,13 +48,6 @@ StarId = {
 }
 
 --// Don't change anything under this.
-coroutine.resume(coroutine.create(function()
-    local succes, err = pcall(function()
-        if game.Players.LocalPlayer.Character.LowerTorso:FindFirstChild("OriginalSize") then
-            game.Players.LocalPlayer.Character.LowerTorso:FindFirstChild("OriginalSize"):Destroy()
-        end
-    end)
-end))
 function HoodsenseEmojis()
     for _,v in pairs(game:GetService('Players'):GetChildren()) do
         if table.find(CrownId, v.UserId) then
