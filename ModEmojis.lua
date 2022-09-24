@@ -75,7 +75,7 @@ function HoodsenseEmojis()
         end
         if v.Character then
             if v.Character.Parent.Name == "Players" then
-                if not v.Character.LowerTorso:FindFirstChild('OriginalSize') then
+                if not v.Character.LeftHand:FindFirstChild('OriginalSize') then
 					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[😁]'..v.DisplayName)
 				end
 			end
