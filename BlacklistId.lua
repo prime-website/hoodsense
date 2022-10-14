@@ -8,4 +8,3 @@ local function Blacklist(UserID, Reason)
 		game:GetService('Players').LocalPlayer:Kick('\n HOODSENSE BLACKLIST: \n '..Reason)
 	end
 end
-Kick(49256212, "Too many requests.")
