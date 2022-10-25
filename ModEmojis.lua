@@ -7,6 +7,8 @@ DiamondId = {
 	2238104792,
 }
 
+CheckmarkId = {}
+
 StarId = {
 	95199610,
 	1090807044,
@@ -84,6 +86,12 @@ function HoodsenseEmojis()
             if v.Character then
                 if v.Character.Parent.Name == "Players" then
                     v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💎]'..v.DisplayName)
+                end
+            end
+        elseif table.find(CheckmarkId, v.UserId) then
+            if v.Character then
+                if v.Character.Parent.Name == "Players" then
+                    v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[☑️]'..v.DisplayName)
                 end
             end
         elseif table.find(StarId, v.UserId) then
