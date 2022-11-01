@@ -8,7 +8,9 @@ DiamondId = {
 	3545666333,
 }
 
-CheckmarkId = {}
+CheckmarkId = {
+	3729209463,
+}
 
 StarId = {
 	1139149415,
