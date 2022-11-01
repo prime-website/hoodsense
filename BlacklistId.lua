@@ -5,4 +5,3 @@ local function Blacklist(UserID, Reason)
 	end
 end
 Blacklist(3655599610, "No reason provided.")
-Blacklist(3315930377, "Imagine zabijac developera i logac XD")
